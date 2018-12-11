@@ -1,0 +1,27 @@
+body {
+	background-color: #2141b7;
+}
+
+h2 {
+	color:#ADD9AD;
+	text-align: center;
+}
+
+h3 {
+	color:#B9E0F7;
+}
+
+#intmap {
+	margin-right: 15px;
+}
+
+footer {
+	size:150%;
+	color:#ADD9AD;
+}
+
+#go {
+	position: absolute;
+	right: 16px;
+	border: 20px solid #B9E0F7;
+}
