@@ -1,0 +1,22 @@
+body {
+	background-color:lightblue;
+	font-family: sans-serif;
+}
+
+
+a:visited {
+	color:maroon;
+	text-decoration: none;
+}
+
+.numberone {
+	color:slateblue;
+}
+
+table {
+	color:maroon;
+}
+
+.black {
+	color:black;
+}
