@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Disappearing Circles</title>
+	<link rel="stylesheet" type="text/css" href="circles.css">
+</head>
+<body>
+
+	<h1 id="displayMessage">Click on the circle to make it disappear</h1>
+
+	<div class="circle" id="red-circle"></div>
+
+	<div class="circle" id="blue-circle"></div>
+
+	<div class="circle" id="yellow-circle"></div>
+
+	<script type="text/javascript">
+
+		document.getElementById("red-circle").onclick = function() {
+
+			document.getElementById("red-circle").style.display = "none";
+		}
+
+		document.getElementById("blue-circle").onclick = function() {
+
+			document.getElementById("blue-circle").style.display = "none";
+		}
+
+		document.getElementById("yellow-circle").onclick = function() {
+
+			document.getElementById("yellow-circle").style.display = "none";
+
+			document.getElementById("displayMessage").innerHTML = "Thanks for playing!" 
+		}
+		
+
+	</script>
+</body>
+</html>
